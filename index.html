@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Font Awsome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      h1{
+        text-align: center;
+        color: rgb(71, 99, 225);
+        cursor: move;
+      }
+      h1:hover{
+        color: rgb(142, 229, 62);
+      }
+      .container {
+        height: 100vh;
+        width: 100%;
+        background-color: wheat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        height: 150px;
+        width: 150px;
+        background-color: rgb(186, 215, 186);
+        border-radius: 80px;
+        margin: 15px;
+        text-align: center;
+        line-height: 200px;
+        box-shadow: 1px 4px 2px 2px rgb(100, 193, 211);
+      }
+      a i {
+        transition: all 0.3s linear;
+        font-size: 55px;
+        cursor: pointer;
+      }
+      a:hover {
+        transform: scale(1.4s);
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Set the Middle FOnt awsome.</h1>
+    <div class="container">
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+    </div>
+  </body>
+</html>
